@@ -26,15 +26,6 @@ class TabBarViewController: UITabBarController {
     }
     
     private func setup() {
-        self.setViewControllers([containerViewController, discoverViewController], animated: true)
-        UITabBar.appearance().backgroundImage = UIImage()
-        UITabBar.appearance().shadowImage = UIImage()
-        UITabBar.appearance().clipsToBounds = true
-    }
-    
-    override func viewDidLayoutSubviews() {
-        super.viewDidLayoutSubviews()
-        
-        self.tabBar.frame = CGRect(x: 0, y: view.safeAreaInsets.bottom + (navigationController?.navigationBar.frame.height ?? 0), width: view.frame.width, height: 50)
+        self.setViewControllers([containerViewController, discoverViewController], animated: true)        
     }
 }
