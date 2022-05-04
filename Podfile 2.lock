@@ -1,0 +1,32 @@
+PODS:
+  - Alamofire (5.5.0)
+  - Kingfisher (7.1.2)
+  - SnapKit (5.0.1)
+  - Then (2.7.0)
+  - youtube-ios-player-helper (1.0.4)
+
+DEPENDENCIES:
+  - Alamofire
+  - Kingfisher
+  - SnapKit
+  - Then
+  - youtube-ios-player-helper
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Kingfisher
+    - SnapKit
+    - Then
+    - youtube-ios-player-helper
+
+SPEC CHECKSUMS:
+  Alamofire: 1c4fb5369c3fe93d2857c780d8bbe09f06f97e7c
+  Kingfisher: 44ed6a8504763f27bab46163adfac83f5deb240c
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  Then: acfe0be7e98221c6204e12f8161459606d5d822d
+  youtube-ios-player-helper: e9b97535e816db3152179d84d999bc1807ecd689
+
+PODFILE CHECKSUM: 10914f3e1488e5e7f10585ced73e6f27bdbdccbc
+
+COCOAPODS: 1.11.2
